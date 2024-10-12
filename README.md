@@ -44,7 +44,7 @@ Ensure that FFmpeg is compiled with `rkmpp` support and that all necessary libra
    ```
 
 ## Usage
-1. Dowd load and run [mediamtx](https://github.com/bluenviron/mediamtx/releases/download/v1.9.2/mediamtx_v1.9.2_linux_arm64v8.tar.gz) rtsp server in localhost.
+1. Download and run [mediamtx](https://github.com/bluenviron/mediamtx/releases/download/v1.9.2/mediamtx_v1.9.2_linux_arm64v8.tar.gz) rtsp server in localhost.
    
 1. Edit the `main.cpp` file to set your specific RTSP input and output URLs:
 ```bash
@@ -66,5 +66,5 @@ const std::string output_rtsp_url = "rtsp://your_output_url";// mediamtx RTSP se
 - firewall in 8554 port
 
 
-## Refrance
+## Reference
 
