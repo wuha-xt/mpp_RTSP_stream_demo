@@ -45,3 +45,29 @@ Ensure that FFmpeg is compiled with `rkmpp` support and that all necessary libra
 ## Usage
 
 Run the compiled executable with the desired RTSP input and output URLs:
+```bash
+./RTSPStreamProcessor
+```
+
+## Code Overview
+
+- **main.cpp**: Contains the main logic for decoding and encoding the RTSP stream.
+- **CMakeLists.txt**: CMake configuration file for building the project.
+
+## Troubleshooting
+
+- Ensure all dependencies are correctly installed and linked.
+- Verify that FFmpeg is compiled with the necessary codec support.
+- Check the console output for any error messages during execution.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
+
+## Contact
+
+For questions or support, please open an issue on the GitHub repository.
