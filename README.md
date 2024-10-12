@@ -43,8 +43,13 @@ Ensure that FFmpeg is compiled with `rkmpp` support and that all necessary libra
    ```
 
 ## Usage
-
-Run the compiled executable with the desired RTSP input and output URLs:
+1. Edit the `main.cpp` file to set your specific RTSP input and output URLs:
+```bash
+const std::string input_rtsp_url = "rtsp://your_input_url";
+const std::string output_rtsp_url = "rtsp://your_output_url";
+```
+2. build
+3. Run the compiled executable with the desired RTSP input and output URLs:
 ```bash
 ./RTSPStreamProcessor
 ```
