@@ -44,36 +44,27 @@ Ensure that FFmpeg is compiled with `rkmpp` support and that all necessary libra
    ```
 
 ## Usage
+1. Dowd load and run [mediamtx](https://github.com/bluenviron/mediamtx/releases/download/v1.9.2/mediamtx_v1.9.2_linux_arm64v8.tar.gz) rtsp server in localhost.
+   
 1. Edit the `main.cpp` file to set your specific RTSP input and output URLs:
 ```bash
 const std::string input_rtsp_url = "rtsp://your_input_url";
-const std::string output_rtsp_url = "rtsp://your_output_url";
+const std::string output_rtsp_url = "rtsp://your_output_url";// mediamtx RTSP server "rtsp://127.0.0.1:8554/test"
 ```
-2. build
+2. build code.
 3. Run the compiled executable with the desired RTSP input and output URLs:
 ```bash
 ./RTSPStreamProcessor
 ```
+5. using vlc to pull RTSP url.
 
 ## Code Overview
 
 - **main.cpp**: Contains the main logic for decoding and encoding the RTSP stream.
 - **CMakeLists.txt**: CMake configuration file for building the project.
-
 ## Troubleshooting
+- firewall in 8554 port
 
-- Ensure all dependencies are correctly installed and linked.
-- Verify that FFmpeg is compiled with the necessary codec support.
-- Check the console output for any error messages during execution.
 
-## License
+## Refrance
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
-
-## Contact
-
-For questions or support, please open an issue on the GitHub repository.
