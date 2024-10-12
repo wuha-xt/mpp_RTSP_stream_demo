@@ -12,7 +12,7 @@ This project is an RTSP stream processor that decodes and re-encodes video strea
 ## Prerequisites
 
 - **FFmpeg** with `rkmpp` support [ffmpeg-rockchip](https://github.com/nyanmisaka/ffmpeg-rockchip)
-  > **NOTE** to [Compilation and install](https://github.com/nyanmisaka/ffmpeg-rockchip/wiki/Compilation) libs like `avcoder.so`,please adding `--enable-shared` in ffmepg configure command `./configure`, like `./configure --prefix=/usr --enable-gpl --enable-version3 --enable-libdrm --enable-rkmpp --enable-rkrga --enable-shared --enable-ffplay`
+  > **NOTE:** To [Compilation and install](https://github.com/nyanmisaka/ffmpeg-rockchip/wiki/Compilation) libs like `avcoder.so`,please adding `--enable-shared` in ffmepg configure command `./configure`, like `./configure --prefix=/usr --enable-gpl --enable-version3 --enable-libdrm --enable-rkmpp --enable-rkrga --enable-shared --enable-ffplay`
 - **OpenCV**
 - **CMake** (version 3.10 or higher)
 - **PkgConfig**
