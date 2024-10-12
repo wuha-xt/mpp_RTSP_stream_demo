@@ -1,6 +1,6 @@
 # RTSP Stream Processor
 
-This project is an RTSP stream processor that decodes and re-encodes video streams using FFmpeg and OpenCV. It is designed to handle video streams from RTSP sources, such as IP cameras, and output them to another RTSP endpoint.
+This project is an RTSP stream processor that decodes and re-encodes video streams using FFmpeg and OpenCV. It is designed to handle video streams from RTSP sources, such as IP cameras, and output them to another RTSP endpoint. Test in RK3588 debian11.
 
 ## Features
 
@@ -11,7 +11,8 @@ This project is an RTSP stream processor that decodes and re-encodes video strea
 
 ## Prerequisites
 
-- **FFmpeg** with `rkmpp` support
+- **FFmpeg** with `rkmpp` support [ffmpeg-rockchip](https://github.com/nyanmisaka/ffmpeg-rockchip)
+  > **NOTE** to Compilation and install avcoder.so ,adding `--enable-shared` in ffmepg `./configure`, like `./configure --prefix=/usr --enable-gpl --enable-version3 --enable-libdrm --enable-rkmpp --enable-rkrga --enable-shared --enable-ffplay`
 - **OpenCV**
 - **CMake** (version 3.10 or higher)
 - **PkgConfig**
