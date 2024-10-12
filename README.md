@@ -1,6 +1,6 @@
 # RTSP Stream Processor
 
-This project is an RTSP stream processor that decodes and re-encodes video streams using FFmpeg and OpenCV. It is designed to handle video streams from RTSP sources, such as IP cameras, and output them to another RTSP endpoint. Test in RK3588 debian11.
+This project is an RTSP stream processor that decodes and re-encodes video streams using FFmpeg and OpenCV. It is designed to handle video streams from RTSP sources, such as IP cameras, and output them to another RTSP endpoint. Tested in RK3588 debian11.
 
 ## Features
 
